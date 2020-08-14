@@ -1,4 +1,3 @@
-use deMaternidad;
 insert into PACIENTE values
 (1,'Valeria Anahí','Saltos Murillo','1982/07/16','1317418520','A01','1.67','valeria@hotmail.com'),
 (2,'Ginger Monserrate','Veliz Cobeña','1999/10/15','1317419637','B01','1.77','ginger@hotmail.com'),
