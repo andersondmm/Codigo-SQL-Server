@@ -52,7 +52,7 @@ create table PACIENTE (
 )
 go
 /*==============================================================*/
-/* Table: ECOGRAFÕAS                                              */
+/* Table: ECOGRAF√çAS                                              */
 /*==============================================================*/
 create table ECOS (
    IDECOS               int                 not null,
@@ -69,7 +69,7 @@ go
 /*==============================================================*/
 /* Table: PARTO                                              */
 /*==============================================================*/
-drop table parto
+
 create table PARTO (
    IDPARTO              int                 not null,
    ID_PACIENTE          int		           not null,
@@ -83,4 +83,3 @@ create table PARTO (
    constraint PK_PARTO primary key (IDPARTO,ID_PACIENTE)
 )
 go
-use deMaternidad;
